@@ -1,7 +1,7 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Alberto
- * Date: 03.02.2016
- * Time: 14:32
- */
+
+include __DIR__ . '/Models/article.php';
+
+$news = Article_get();
+
+include __DIR__ . '/Views/index.php';
