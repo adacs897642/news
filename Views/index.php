@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/../bootstrap.min.css">
+    <link rel="stylesheet" href="/bootstrap.min.css">
     <title>News Paper</title>
 </head>
 <body>
@@ -13,7 +13,7 @@
        <p><?php echo $art['time'];?></p>
         <h2><?php echo $art['title'];?></h2>
         <p><?php echo $art['annotation'];?></p>
-        <form action="/../news.local/news.php" method="get">
+        <form action="/news.php" method="get">
             <input type="hidden" name="id" value="<?php echo $art['id']?>">
             <input type="submit" value="Смотреть далее..." class="bg-info btn">
         </form>

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/../bootstrap.min.css">
+    <link rel="stylesheet" href="/bootstrap.min.css">
     <title>News Paper</title>
 </head>
 <body>
